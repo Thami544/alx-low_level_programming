@@ -4,36 +4,20 @@
 
 /**
  *
- *  * main -  prints _putchar, followed by a new line
+ *  *  _putchar - writes the charecter c to stdout  
  *
- *   * Return: Always 0 (Success)
+ *   * @c: the charecter to print 
+ *
+ *   Return: on success 1 
  *
  *    */
 
-int main(void)
+int _putchar.c(char c)
 
 {
 
-		_putchar('_');
+		return (write(1, &c, 1));
 
-		_putchar('p');
-
-		_putchar('u');
-
-		_putchar('t');
-
-		_putchar('c');
-
-		_putchar('h');
-
-		_putchar('a');
-			
-		_putchar('r');
-
-		_putchar('\n');
-
-
-
-			return (0);
+	
 
 }
